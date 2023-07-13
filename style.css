@@ -44,6 +44,7 @@ body {
 
 body {
   font-family: "Rubik", sans-serif;
+  background-color: var(--Very-dark-blue);
 }
 main {
   position: absolute;
