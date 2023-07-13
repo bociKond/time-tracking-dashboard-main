@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | Time tracking dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="sidebar">
+        <div class="sidebar-top">
+          <img src="/images/image-jeremy.png" alt="" />
+          <div class="info-text">
+            <span>Report for</span>
+            <h1>
+              Jeremy <br />
+              Robson
+            </h1>
+          </div>
+        </div>
+        <ul class="sidebar-navigation">
+          <li>
+            <button class="nav-link button" data-target="daily">Daily</button>
+          </li>
+          <li>
+            <button class="nav-link button" data-target="weekly">Weekly</button>
+          </li>
+          <li>
+            <button class="nav-link button" data-target="monthly">
+              Monthly
+            </button>
+          </li>
+        </ul>
+      </nav>
+      <div class="dashboard">
+        <div class="card work">
+          <span class="card-text"
+            >Work
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </span>
+          <div class="info" id="daily">
+            <span class="hours">5hrs</span>
+            <span class="previous">Yesterday - 7hrs</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">32hrs</span>
+            <span class="previous">Last Week - 36hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">103hrs</span>
+            <span class="previous">Last Month - 128hrs</span>
+          </div>
+        </div>
+        <div class="card play">
+          <span class="card-text"
+            >Play
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li></ul
+          ></span>
+          <div class="info" id="daily">
+            <span class="hours">1hr</span>
+            <span class="previous">Yesterday - 2hrs</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">10hrs</span>
+            <span class="previous">Last Week - 8hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">23hrs</span>
+            <span class="previous">Last Month - 29hrs</span>
+          </div>
+        </div>
+        <div class="card study">
+          <span class="card-text"
+            >Study
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li></ul
+          ></span>
+          <div class="info" id="daily">
+            <span class="hours">0hrs</span>
+            <span class="previous">Yesterday - 1hr</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">4hrs</span>
+            <span class="previous">Last Week - 7hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">13hrs</span>
+            <span class="previous">Last Month - 19hrs</span>
+          </div>
+        </div>
+        <div class="card exercise">
+          <span class="card-text"
+            >Exercise
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li></ul
+          ></span>
+          <div class="info" id="daily">
+            <span class="hours">1hr</span>
+            <span class="previous">Yesterday - 1hr</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">4hrs</span>
+            <span class="previous">Last Week - 5hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">11hrs</span>
+            <span class="previous">Last Month - 18hrs</span>
+          </div>
+        </div>
+        <div class="card social">
+          <span class="card-text"
+            >Social
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li></ul
+          ></span>
+          <div class="info" id="daily">
+            <span class="hours">1hr</span>
+            <span class="previous">Yesterday - 3hrs</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">5hrs</span>
+            <span class="previous">Last Week - 10hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">21hrs</span>
+            <span class="previous">Last Month - 23hrs</span>
+          </div>
+        </div>
+        <div class="card self-care">
+          <span class="card-text"
+            >Self Care
+            <ul>
+              <li></li>
+              <li></li>
+              <li></li></ul
+          ></span>
+          <div class="info" id="daily">
+            <span class="hours">0hrs</span>
+            <span class="previous">Yesterday - 1hr</span>
+          </div>
+          <div class="info" id="weekly" style="display: none">
+            <span class="hours">2hrs</span>
+            <span class="previous">Last Week - 2hrs</span>
+          </div>
+          <div class="info" id="monthly" style="display: none">
+            <span class="hours">7hrs</span>
+            <span class="previous">Last Month - 11hrs</span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
